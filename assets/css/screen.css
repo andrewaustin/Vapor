@@ -34,7 +34,7 @@ h1 {
 
 a,
 a:visited {
-  color: #3498db;
+  color: #5682CB;
   text-decoration: none;
   transition: color ease 0.7s;
   -webkit-transition: color ease 0.7s;
@@ -159,6 +159,10 @@ section.share {
   padding-top: 1em;
   text-align: right;
 }
+section.author {
+  border: 1px dashed #CCC;
+  background-color: #EEE;
+}
 section.author h4,
 section.author p,
 section.share p {
@@ -220,6 +224,12 @@ blockquote p {
   margin-bottom: 1.2em;
   text-transform: uppercase;
 }
+
+.post-meta-bottom {
+  color: #DDD;
+}
+
+
 .tags {
   font-size: 16px;
   margin-bottom: 0.6em;
